@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Currency Exchanger</string>
+    <string name="currency">currency</string>
+    <string name="money">money</string>
+
+    <string name="rial">rial</string>
+    <string name="usdollar">usdollar</string>
+    <string name="canadadollar">canadadollar</string>
+    <string name="pound">pound</string>
+    <string name="euro">euro</string>
+    <string name="derham">derham</string>
+
+    <string name="rial_text">rial_text</string>
+    <string name="usdollar_text">usdollar_text</string>
+    <string name="canadadollar_text">canadadollar_text</string>
+    <string name="pound_text">pound_text</string>
+    <string name="euro_text">euro_text</string>
+    <string name="derham_text">derham_text</string>
+
+    <string name="rial_title">Rial</string>
+    <string name="usdollar_title">US Dollar</string>
+    <string name="canadadollar_title">Canadian Dollar</string>
+    <string name="pound_title">British Pound</string>
+    <string name="euro_title">Euro</string>
+    <string name="derham_title">Emirati Dirham</string>
+    <string name="emirati_dirham">Emirati Dirham</string>
+    <string name="euro_">Euro</string>
+    <string name="british_pound">British Pound</string>
+    <string name="canadian_dollar">Canadian Dollar</string>
+    <string name="us_dollar">US Dollar</string>
+    <string name="rial_">Rial</string>
+</resources>

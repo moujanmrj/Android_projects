@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FalTime</string>
+    <string name="primary_color">Primary color</string>
+    <string name="button">Button</string>
+    <string name="secondary_color">Secondary color</string>
+    <string name="email_icon">email icon</string>
+    <string name="fal">fal</string>
+    <string name="info">info</string>
+</resources>

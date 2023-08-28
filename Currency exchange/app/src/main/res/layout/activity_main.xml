@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/rial"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="268dp"
+        android:contentDescription="@string/rial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rial"/>
+
+    <EditText
+        android:id="@+id/rial_text"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="90dp"
+        android:hint="@string/currency"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/rial_text"
+        app:layout_constraintTop_toTopOf="parent"
+        android:inputType="numberDecimal"  />
+
+    <ImageView
+        android:id="@+id/usdollar"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="268dp"
+        android:contentDescription="@string/usdollar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/usdollar" />
+
+    <EditText
+        android:id="@+id/usdollar_text"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="170dp"
+        android:hint="@string/currency"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/usdollar_text"
+        app:layout_constraintTop_toTopOf="parent"
+        android:inputType="numberDecimal" />
+
+    <ImageView
+        android:id="@+id/canadadollar"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="268dp"
+        android:contentDescription="@string/canadadollar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/canadadollar" />
+
+    <EditText
+        android:id="@+id/canadadollar_text"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="250dp"
+        android:hint="@string/currency"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/canadadollar_text"
+        app:layout_constraintTop_toTopOf="parent"
+        android:inputType="numberDecimal" />
+
+    <ImageView
+        android:id="@+id/pound"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="268dp"
+        android:contentDescription="@string/pound"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pound" />
+
+    <EditText
+        android:id="@+id/pound_text"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="340dp"
+        android:hint="@string/currency"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/pound_text"
+        app:layout_constraintTop_toTopOf="parent"
+        android:inputType="numberDecimal" />
+
+    <ImageView
+        android:id="@+id/euro"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="268dp"
+        android:contentDescription="@string/euro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/euro" />
+
+    <EditText
+        android:id="@+id/euro_text"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="415dp"
+        android:hint="@string/currency"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/euro_text"
+        app:layout_constraintTop_toTopOf="parent"
+        android:inputType="numberDecimal" />
+
+    <ImageView
+        android:id="@+id/derham"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="484dp"
+        android:layout_marginEnd="268dp"
+        android:contentDescription="@string/derham"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/derham" />
+
+    <EditText
+        android:id="@+id/derham_text"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="494dp"
+        android:hint="@string/currency"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/derham_text"
+        app:layout_constraintTop_toTopOf="parent"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/rial_title"
+        android:layout_width="82dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="450dp"
+        android:text="@string/rial_"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/rial_text"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/usdollar_title"
+        android:layout_width="82dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="370dp"
+        android:text="@string/us_dollar"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/usdollar_text"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/canadadollar_title"
+        android:layout_width="82dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="298dp"
+        android:text="@string/canadian_dollar"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/canadadollar_text"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/pound_title"
+        android:layout_width="82dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="210dp"
+        android:text="@string/british_pound"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/pound_text"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/euro_title"
+        android:layout_width="82dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="126dp"
+        android:text="@string/euro_"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/euro_text"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/derham_title"
+        android:layout_width="82dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="54dp"
+        android:text="@string/emirati_dirham"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/derham_text"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
